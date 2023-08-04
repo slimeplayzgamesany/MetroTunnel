@@ -1,0 +1,394 @@
+.md {
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    border-radius: 30px;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+    border-radius: 150px 150px 20px 20px;
+
+   
+}
+
+
+
+.light {
+    height: 30px;
+    width: 250px;
+    border: 1px solid grey;
+    position: absolute;
+    left: 670px;
+    top: 150px;
+    border-radius: 10px;
+    display: flex;
+}
+.s1 {
+    height: inherit;
+    width: 83.3px;
+    background-color: blue;
+    border-radius: inherit;
+    animation-name: s1;
+    animation-iteration-count: infinite;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+    box-shadow: 1px 1px 150px 50px blue;
+}
+@keyframes s1 {
+    0% {
+        background-color: blue;
+        box-shadow: 1px 1px 200px 50px blue;
+
+
+    }
+    50% {
+        background-color: white;
+        box-shadow: 1px 1px 200px 50px white;
+
+
+    }
+    100% {
+        background-color: red;
+        box-shadow: 1px 1px 200px 50px red;
+
+
+    }
+    
+}
+.s2 {
+    height: inherit;
+    width: 83.3px;
+    background-color: white;
+    border-radius: inherit;
+}
+.s3 {
+    height: inherit;
+    width: 83.3px;
+    background-color: red;
+    border-radius: inherit;
+    animation-name: s3;
+    animation-iteration-count: infinite;
+    background-color: red;
+    border-radius: inherit;
+    animation-name: s1;
+    animation-iteration-count: infinite;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+    box-shadow: 1px 1px 150px 50px red;
+}
+@keyframes s3 {
+    0% {
+        background-color: red;
+        box-shadow: 1px 1px 200px 50px bredlue;
+
+
+    }
+    50% {
+        background-color: white;
+        box-shadow: 1px 1px 200px 50px white;
+
+
+    }
+    100% {
+        background-color: blue;
+        box-shadow: 1px 1px 200px 50px blue;
+
+
+    }
+    
+}
+
+.l1 {
+width: 100px;
+height: 40px;
+position: absolute;
+top: 300px;
+left: 10px;
+border-radius: 20px 30px 0px 5px;
+background-color: white;
+box-shadow:1px 1px 50px 10px white ;
+animation-name: li;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+.l2 {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    border-radius: 30px 20px 5px 0px;
+    background-color: white;
+    box-shadow:1px 1px 50px 10px white ;
+    animation-name: l2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    }
+
+.c1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 300px;
+    right: 10px;
+}
+
+@keyframes li {
+
+    0% {
+        background-color: white;
+    box-shadow:1px 1px 50px 10px white ;
+    }
+    50% {
+        background-color: white;
+        box-shadow:1px 1px 50px 10px white ;
+    }
+
+      100% {
+        background-color: white;
+        box-shadow: 0px 0px 0px 0px black;
+        }
+    }
+    
+    @keyframes l2 {
+
+        0% {
+            background-color: white;
+        box-shadow:1px 1px 50px 10px white ;
+        }
+        50% {
+            background-color: white;
+            box-shadow:1px 1px 50px 10px white ;
+        }
+    
+          100% {
+            background-color: white;
+            box-shadow: 0px 0px 0px 0px black;
+            }
+        }
+        
+.shape0 {
+    background-color: white;
+    height: 10px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow:1px 1px 20px 10px red ;
+    position: absolute;
+    top: 580px;
+    left: 700px;
+    animation-name: shape0;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.shape1 {
+    background-color: white;
+    height: 10px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow:1px 1px 20px 10px blue ;
+    position: absolute;
+    top: 580px;
+    right: 1000px;
+    animation-name: shape1;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes shape0{
+    0%{
+        box-shadow:1px 1px 20px 10px red ;
+    }
+    50% {
+        box-shadow:1px 1px 20px 10px red ;
+    }
+    100% {
+        box-shadow:0px 0px 0px 0px ;
+    }
+}
+@keyframes shape1{
+    0%{
+        box-shadow:1px 1px 20px 10px blue ;
+    }
+    50% {
+        box-shadow:1px 1px 20px 10px blue ;
+    }
+    100% {
+        box-shadow:0px 0px 0px 0px ;
+    }
+}
+
+.oval {
+    height: 100px;
+    width: 300px;
+    background-image: linear-gradient(to right,lightblue, blue);
+    border: 10px black;
+    border-radius: 50px 50px 40px 40px/ 60px 60px 30px 30px;
+    box-shadow: 0 0 20px 5px grey;
+    /* animation: oval 3s infinte ease-in-out; */
+    animation-name: oval;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes oval {
+    0% {
+        position:relative;
+        right: 100px;
+        
+       
+    }
+    5% {
+        position:relative;
+        left: 100px;
+    }
+    40% {
+        position:relative;
+        left: 200px;
+    }
+    60% {
+        position:relative;
+        left: 400px;
+    }
+    80% {
+        position:relative;
+        left: 600px;
+    }
+    100% {
+        position:relative;
+        left: 1500px;
+    }
+}
+
+.windscreen {
+    height: 150px;
+    width: 350px;
+    background-image: linear-gradient(135deg,#00235B, #E4DCCF, #00235B);
+    opacity: 1;
+    position: absolute;
+    left: 625px;
+    top: 250px;
+    border-radius: 50px 50px 5px 5px;
+}
+.car {
+    animation-name: car;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    
+}
+
+@keyframes car {
+    0% {
+        transform:translateX(0px);
+        transform: translateY(0px);
+    }
+   
+    50% {
+        
+        transform: translateY(20px);
+        
+    }
+    
+    100%{}
+        transform: translatY(0px);
+    }
+
+    .sm1 {
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        position: absolute;
+        top: 350px;
+        left: 550px;
+        border-radius: 10px 10px 10px 10px;
+        border: solid grey 2px;
+    }
+
+    .sm2 {
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        position: absolute;
+        top: 350px;
+        right: 829px;
+        border-radius: 10px 10px 10px 10px;
+        border: solid grey 2px;
+    }
+
+body {
+    background-image: url("https://static1.bigstockphoto.com/5/4/3/large1500/345299143.jpg");
+    background-size: cover;
+}
+
+.train-number {
+    color: white;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    left: 750px;
+    top: 490px ;
+}
+
+.box21 {
+    color: white;
+    position: absolute;
+    left: 1160px;
+    top: 170px;
+    background-color: orange;
+    height: 99px;
+    width: 360px;
+    animation-name: box21;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    box-shadow: 0px 0px 20px 5px orange;
+
+}
+
+@keyframes box21 {
+    0% {
+        background-color: orange;
+        box-shadow: 0px 0px 20px 5px orange;
+    }
+    50% {
+        background-color: #05BFDB;
+        box-shadow: 0px 0px 20px 5px #05BFDB;
+    }
+    100% {
+        background-color: orange;
+        box-shadow: 0px 0px 20px 5px orange;
+    }
+}
+
+.box22 {
+    height: 230px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 320px;
+    right: 140px;
+    animation-name: box21;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+
+.box23 {
+    height: 60px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 460px;
+    right: 430px;
+    animation-name: box21;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+
+
